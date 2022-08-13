@@ -1,0 +1,103 @@
+html {
+    background-color: #27282b;
+}
+
+body {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Luna";
+}
+
+
+/*Title Section*/
+.title-Gallery {
+    color: orangered;
+}
+
+.title {
+    color: #ffffff;
+}
+
+
+/*Inside Header*/
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #27282b;
+    font-size: 24px;
+    padding: 25px;
+    text-align: center;
+    color: White;
+}
+
+
+/*Navigation Section*/
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid orangered;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: orangered; 
+}
+
+
+/*Gallery Section*/
+.gallery {
+    margin: .5vw;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.gallery div {
+    flex: auto;
+    width: 300px;
+    margin: .5vw;
+}
+
+.gallery div img {
+    width: 100%;
+    height: auto;
+    border: 3px solid orangered;
+}
+
+/*Code Reference*/
+/*
+    --------------Code Adapted From Aspire Tech, 2019--------------
+    .gallery {
+    margin: .5vw;
+    flex-flow: row wrap;
+    display: flex;
+    }
+
+    .gallery div {
+        flex: auto;
+        width: 300px;
+        margin: .5vw;
+    }
+
+    .gallery div img {
+        width: 100%;
+        height: auto;
+        border: 3px solid orangered;
+    }
+    ----------------------End of Adapted Code----------------------
+*/
+
+

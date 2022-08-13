@@ -1,0 +1,72 @@
+		Home Menu:
+------------------------------------------------------------------------
+Code Reference:
+
+	Navigation Menu:
+		Web Dev. (2018). How To Create A Website Using HTML And CSS Step By Step Website Tutorial. Retrieved from https://www.youtube.com/watch?v=uyaV_EWWRmo&t=512s
+
+	Footer:
+		Awa Melvine. (2019). Design a Footer that sticks to the bottom of the page | Designing a Blog with HTML and CSS #6. Retrieved from https://www.youtube.com/watch?v=o-cKmAeNJiA
+
+	Font Logo:
+		Font Awesome. (N.D). fas fa. Retrieved from https://kit.fontawesome.com/4f2f15f65d.js
+
+	Home Screen Animation:
+		Vincent Garreau. (2015). particles.js. Retrieved from https://github.com/VincentGarreau/particles.js/
+
+	Quote Animation: 
+		Cam Wiegert. (N.D). baffle. Retrieved from https://camwiegert.github.io/baffle/
+------------------------------------------------------------------------
+Sources:
+
+	Madelon Karl. (2019). Keanu Reeves' Life Is More Tragic Than You Think. Retrieved from https://www.cheatsheet.com/entertainment/keanu-reeves-life-is-more-tragic-than-you-think.html/
+------------------------------------------------------------------------
+
+		Gallery Menu:
+------------------------------------------------------------------------
+Code Reference:
+
+	Aspire Tech. (2019). How to Create Responsive Image Gallery using Flexbox | HTML | CSS | 2019. Retrieved from https://www.youtube.com/watch?v=ui1wyiXZdVM
+
+------------------------------------------------------------------------
+
+		Movie Menu:
+------------------------------------------------------------------------
+Code Reference:
+
+	Logic Tycoon. (2018). Modern Responsive image gallery in HTML & CSS. Retrieved from https://www.youtube.com/watch?v=6k0F4kzECm8&list=WL&index=2&t=0s
+
+------------------------------------------------------------------------
+Sources:
+
+	Colin McCormick. (2019). The 10 Best Keanu Reeves Movies According To IMDb. Retrieved from https://screenrant.com/keanu-reeves-imdb-best-rated-movies-ever/
+------------------------------------------------------------------------
+
+	News Menu:
+------------------------------------------------------------------------
+Code Reference:
+
+	Online Tutorials. (2017). Changing Letter Animation - Pure Css Text Rotator - No Javascript. retrieved from https://www.youtube.com/watch?v=NhwjIIO0_kY
+------------------------------------------------------------------------
+Sources:
+
+	Movieweb. (N.D). Latest 'Keanu Reeves' News. Retrieved from https://movieweb.com/person/keanu-reeves/
+------------------------------------------------------------------------
+
+	Events Menu:
+------------------------------------------------------------------------
+Code Reference:
+
+	w3newbie. (2018). Pure CSS Responsive Image Slider - HTML5/CSS3 Tutorial. Retrieved from https://www.youtube.com/watch?v=pGHOaY4dhAA
+------------------------------------------------------------------------
+Sources:
+
+	Keanu Reeves Online. (N.D). Events. Retrieved from https://keanu-reeves.org/
+	
+	Keaton Bell. (2019). Inside the World Premiere of John Wick: Chapter 3—Parabellum. Retrieved from https://www.vogue.com/article/world-premiere-john-wick-chapter-3-parabellum
+
+	Phil Owen. (2019). Does ‘John Wick: Chapter 3 – Parabellum’ Have a Post-Credits Scene? retrieved from https://www.thewrap.com/does-john-wick-chapter-3-parabellum-have-a-post-credits-scene-sequel-continental-keanu-reeves/
+
+	Bhvishya Patel For Mailonline. (2019). Keanu Reeves looks dapper in a slick black suit as he attends a special screening for John Wick: Chapter 3-Parabellum in London. Retrieved from https://www.dailymail.co.uk/tvshowbiz/article-6989997/Keanu-Reeves-looks-dapper-attends-special-screening-John-Wick-Chapter-3-Parabellum.html
+	
+------------------------------------------------------------------------

@@ -1,0 +1,251 @@
+html {
+    background-color: #27282b;
+}
+
+body {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Luna";
+}
+
+
+/*Inside Header*/
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #27282b;
+    font-size: 24px;
+    padding: 25px;
+    text-align: center;
+    color: White;
+}
+
+.title-News {
+    color: orangered;
+}
+
+.title {
+    color: #ffffff;
+}
+
+
+/*Navigation Section*/
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid orangered;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: orangered; 
+}
+
+
+/*Inside Conatiner*/
+.container {
+    margin: auto;
+    width: 1200px;
+}
+
+
+/*Trending-Now Message*/
+.trending-now {
+    margin: auto;
+    width: 900px;
+    display: flex;
+    background-color: orangered;
+    border: 1px solid #000;
+}
+
+.message {
+    background-color: black;
+    color: #ffffff;
+    width: 100px;
+    padding: 0px 20px;
+}
+
+.news-title {
+    margin: auto;
+}
+
+.trending-now .news-title span:before {
+    content: "Spider-Man: Into the Spider-Verse 2 Teaser Announces 2022 Release Date";
+    animation: animate infinite 10s;
+}
+
+@keyframes animate {
+    0% {
+        content: "Spider-Man: Into the Spider-Verse 2 Teaser Announces 2022 Release Date"
+    }
+    25% {
+        content: "Blade Runner Is Now: As of Today We're Officially Living in the Future"
+    }
+    50% {
+        content: "Ant-Man 3 Is Officially Happening with Paul Rudd & Director Peyton Reed"
+    }
+    75% {
+        content: "Tomb Raider 2 Shoot Is Heading to England with Alicia Vikander"
+    }
+    100% {
+        content: "Finn Actor Says Anakin Skywalker Is a Better Jedi Than Rey & Kylo, Huge Debate Ensues"
+    }
+}
+
+
+/*Column1 Section*/
+.column1 {
+    margin: auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart1 {
+    margin: auto;
+}
+
+.cart2 {
+    margin: auto;
+}
+
+.sub-cart2 {
+    display: flex;
+    margin: auto;
+    margin-top: -2px;
+}
+
+
+/*News Section*/
+.single-album {
+    position: relative;
+    overflow: hidden;
+}
+
+.album-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.album-img img{
+    margin: auto;
+    width: 300px;
+    transition: .4s;
+}
+
+.single-album:hover .album-img img {
+    transform: scale(1.5,1.5)
+}
+
+.album-content {
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    transition: all .4s;
+    background: transparent;
+}
+
+.single-album:hover .album-content {
+    height: 200px;
+    background: transparent;
+}
+
+.album-info h3 {
+    font-size: 16px;
+    color: #fff;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.single-album:hover .album-info h3 {
+    color: orangered;
+}
+
+.album-info h3 {
+    color: #fff;
+    margin-top: 15px;
+}
+
+
+/*Edits/Realigning*/
+.news2 img {
+    margin: auto;
+    width: 863px;
+}
+
+.cart1 img {
+    margin: auto;
+    width: 539px;
+}
+
+.news4 img {
+    margin: auto;
+    width: 563px;
+}
+
+.album-content button {
+    background-color: orangered;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+album-content button:hover {
+    background-color: #ffffff;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+/*Code Reference*/
+/*
+    -----------Code Adapted from Online Tutorials, 2017-----------
+    p {
+    content:
+    animation: animate infinite 8s;
+    }
+
+    @keyframes animate {
+        0% {
+            content: 
+        }
+        25% {
+            content: 
+        }
+        50% {
+            content: 
+        }
+        75% {
+            content: 
+        }
+        100% {
+            content: 
+        }
+    }
+    ----------------------End of Adapted Code----------------------
+
+*/
+
+
+
+
+
+

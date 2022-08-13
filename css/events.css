@@ -1,0 +1,218 @@
+html {
+    background-color: #27282b;
+}
+
+body {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: "Luna";
+}
+
+
+/*Inside Header*/
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #27282b;
+    font-size: 24px;
+    padding: 25px;
+    text-align: center;
+    color: White;
+}
+
+
+/*Title Section*/
+.title-Interview {
+    color: orangered;
+}
+
+.title {
+    color: #ffffff;
+}
+
+
+/*Navigation Section*/
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid orangered;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: orangered; 
+}
+
+
+/*Container Section*/
+.container {
+    margin: auto;
+    width: 1400px;
+    background-color: #2b2b27;
+    border: 1px solid orangered;
+}
+
+.container h1 {
+    text-align: center;
+    color: orangered;
+}
+
+
+/*Divided Section*/
+.divided {
+    display: flex;
+}
+
+.column1 {
+    margin: auto;
+    width: 5000px;
+    padding: 0px 20px;
+}
+
+.column2 {
+    margin: 0 20px 0 0;
+}
+
+
+/*Slider Section*/
+#slider1 {
+    overflow: hidden;
+}
+
+#slider1 figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+
+#slider1 figure img {
+    width: 20%;
+    float: left;
+    vertical-align: middle;
+}
+
+#slider2 {
+    overflow: hidden;
+}
+
+#slider2 figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+
+#slider2 figure img {
+    width: 20%;
+    float: left;
+    vertical-align: middle;
+}
+
+#slider3 {
+    overflow: hidden;
+}
+
+#slider3 figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 15s slider infinite;
+}
+
+#slider3 figure img {
+    width: 20%;
+    float: left;
+    vertical-align: middle;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    20% {
+        left: 0;
+    }
+
+    25% {
+        left: -100%;
+    }
+
+    45% {
+        left: -100%;
+    }
+
+    50% {
+        left: -200%;
+    }
+
+    70% {
+        left: -200%;
+    }
+
+    75% {
+        left: -300%;
+    }
+
+    95% {
+        left: -300%;
+    }
+
+    100% {
+        left: -400%;
+    }
+}
+
+
+/*Code Reference*/
+/*
+    --------------Code Adapted from w3newbie, 2018--------------
+    @keyframes slider {
+        0% {
+            left: 0;
+        }
+        20% {
+            left: 0;
+        }
+        25% {
+            left: -100%;
+        }
+        45% {
+            left: -100%;
+        }
+        50% {
+            left: -200%;
+        }
+        70% {
+            left: -200%;
+        }
+        75% {
+            left: -300%;
+        }
+        95% {
+            left: -300%;
+        }
+        100% {
+            left: -400%;
+        }
+    }
+    --------------------End of Adapted Code--------------------
+*/

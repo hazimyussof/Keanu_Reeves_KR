@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KeanuReevesKR</title>
+    <link rel="shortcut icon" href="images/favicon_logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Font Logo Script-->
+    <script src="https://kit.fontawesome.com/4f2f15f65d.js" crossorigin="anonymous"></script>
+    <!--Text Animation Script-->
+    <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="particles-js">
+            <h1><a class="logo">Keanu Reeves <span class="logo-KR">KR</span></a></h1>
+            <div class="main">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="events.html">EVENTS & APPEARANCES</a></li>
+                    <li><a href="movies.html">MOVIES</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                </ul>
+            </div>
+            <div class="image-and-quote">
+                <div class="section1">
+                    <div class="data">
+                        <p>"When the people you love are gone, you're alone."</p>
+                    </div>
+                </div>
+                <div class="section2">
+                    <img src="images/main_background.png" alt="Main Background Image of John Wick">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content"></div>
+
+    <!--Footer-->
+    <div class="footer">
+
+        <div class="footer-content">
+            <!--About Section-->
+            <div class="footer-section about">
+                <h1 class="logo-text"><span>KeanuReeves</span>KR</h1>
+                <p>KeanureevesKR is a fictional website dedicated to Keanu Reeves which is conceived for the
+                    purpose of educational purposes only.</p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp; +673 8202051</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; hazqier205@gmail.com</span>
+                </div>
+                <div class="socials">
+                    <a href="https://www.facebook.com/Hazqier"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/pegle205/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/Hazqier"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCo37uje2kGRUKaEQ__ED9MQ?view_as=subscriber"><i
+                            class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <!--Links Section-->
+            <div class="footer-section links">
+                <h1>Quick Links</h1>
+                <br>
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms & Conditions</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Contacts Section-->
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                <br>
+                <form action="index.html" method="post">
+                    <input type="email" name="email" class="text-input contact-input"
+                        placeholder="Your Email Address...">
+                    <textarea name="Message" class="text-input contact-input" placeholder="Your Message..."></textarea>
+                    <button type="submit" class="btn">
+                        <i class="fas fa-envelope"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; KeanuReevesKR.com | Designed By Ahmad Hazim
+        </div>
+    </div>
+
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+
+        const text = baffle(".data");
+        text.set({
+            characters: '░<▓ ░██▒> █▓██▓ ▓██ >█▓▓▓ ▓<>▒ <▓< ░█▓▒ /█▓/',
+            speed: 120
+        })
+        text.start();
+        text.reveal(4000);
+
+    </script>
+</body>
+
+</html>
+
+
+<!--Reference-->
+<!--
+
+    --------------Code Adapted from Cam Wiegert, N.D--------------
+    Quotation Animation:
+
+        <script>
+
+        const text = baffle(".data");
+        text.set({
+            characters: '░<▓ ░██▒> █▓██▓ ▓██ >█▓▓▓ ▓<>▒ <▓< ░█▓▒ /█▓/',
+            speed: 120
+        })
+        text.start();
+        text.reveal(4000);
+
+        </script>
+    ----------------------End of Adapted Code----------------------
+
+    ------------Code Adapted from Vincent Garreau, 2015------------
+    Background Animation:
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+    ----------------------End of Adapted Code----------------------
+
+-->

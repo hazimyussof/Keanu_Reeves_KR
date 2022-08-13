@@ -1,0 +1,243 @@
+html {
+    background-color: #27282b;
+}
+
+body {
+    font-family: "Luna";
+	margin: auto;
+}
+
+
+/*Header Section*/
+header {
+    height: 1000px;
+}
+
+#particles-js {
+    height: 1000px;
+}
+
+canvas { 
+    position: absolute; 
+    top: 0; 
+    z-index: -1 
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*Logo*/
+header h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: auto 0px;
+}
+
+.logo {
+    color: #ffffff;
+}
+
+.logo-KR {
+    color: orangered;
+}
+
+
+/*navigation*/
+.main ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 25px 0px 25px 0px;
+    margin: auto;
+}
+
+.main ul li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 30px;
+    border: 1px solid orangered;
+    transition: 0.6s ease;
+}
+
+.main ul li a:hover {
+    background-color: #ffffff;
+    color: orangered; 
+}
+
+
+/*Image and Quote*/
+.image-and-quote {
+    margin: auto;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-and-quote .section2 {
+    height: 815px;
+}
+
+.image-and-quote .section1 {
+    margin: auto;
+    height: 815px;
+}
+
+.image-and-quote .section2 img {
+    line-height: 600px;
+    margin: auto;
+    height: 815px;
+}
+
+.data {
+    font-size: 40px;
+    color: orangered;
+    padding: 0px 20px;
+    line-height: 600px;
+}
+
+
+/* Inside Footer*/
+.footer {
+    background: #5a5a57;
+    color: white;
+    height: 400px;
+    position: relative;
+}
+
+.footer .footer-content {
+    height: 350px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section {
+    flex: 1;
+    padding: 50px; 
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2 {
+    color: black;
+}
+
+.footer .footer-content .about h1 span {
+    color: orangered;
+}
+
+.footer .footer-content .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.footer .footer-content .about .socials a {
+    border: 1px solid grey;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.footer .footer-content .about .socials a:hover {
+    border: 1px solid white;
+    color: orangered;
+    transition: 0.3s ease;
+}
+
+.footer .footer-content .links ul {
+    list-style-type: none;
+}
+
+.footer .footer-content .links ul a{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer .footer-content .links ul a:hover {
+    color: orangered;
+    margin-left: 15px;
+    transition: 0.3s ease;
+}
+
+.footer .footer-content .contact-form .contact-input {
+    display: inline-block;
+    background: grey;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: 0.9rem 1.4rem;    
+}
+
+.footer .footer-bottom {
+    background: orangered;
+    color: black;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
+
+
+/*Buttons*/
+.text-input {
+    padding: 0.7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    color: grey;
+    line-height: 1.5rem;
+    font-size: 1.2em;
+    font-family: 'Lora', serif;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    background: orangered;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.btn:hover {
+    color: white;
+    background: black;
+}
+
+.textarea {
+    resize: none;
+}
+
+
+/*References*/
+/*
+
+    --------------Code Adapted from Cam Wiegert, N.D--------------
+    Quotation Animation:
+        .data {
+            font-size: 40px;
+            color: orangered;
+            padding: 0px 20px;
+            line-height: 600px;
+        }
+    ----------------------End of Adapted Code----------------------
+
+*/
